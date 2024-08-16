@@ -48,7 +48,7 @@ python MAIN_FILE_CNN.ipynb
 
 The system will display the predicted gesture on the video feed from your webcam. Press 'q' to exit the application.
 
-Project Structure
+## Project Structure
 ```plaintext
 MAIN_FILE_CNN.ipynb: Main script to run real-time gesture recognition.
 cnn_model.keras: Trained CNN model (ensure this file is present in the project directory).
