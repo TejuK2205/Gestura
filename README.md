@@ -36,7 +36,7 @@ To set up the project environment and install the necessary dependencies, follow
 
 3. **Download and Place the Trained Model**
 
-   Ensure that you have the trained model file (e.g., `cnn_model.h5`). Place it in the project directory.
+   Ensure that you have the trained model file (e.g., `cnn_model.keras`). Place it in the project directory.
 
 ## Usage
 
@@ -50,7 +50,6 @@ The system will display the predicted gesture on the video feed from your webcam
 
 Project Structure
 ```plaintext
-detect_gesture.py: Main script to run real-time gesture recognition.
-requirements.txt: List of dependencies.
-gesture_model.h5: Trained CNN model (ensure this file is present in the project directory).
+MAIN_FILE_CNN.ipynb: Main script to run real-time gesture recognition.
+cnn_model.keras: Trained CNN model (ensure this file is present in the project directory).
 ```
